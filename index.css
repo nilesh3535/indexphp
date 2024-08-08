@@ -1,0 +1,51 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-section, .right-section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.right-section form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-section form h2 {
+    margin-bottom: 20px;
+}
+
+.right-section form label {
+    margin-top: 10px;
+}
+
+.right-section form input {
+    margin-top: 5px;
+    padding: 10px;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.right-section form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
